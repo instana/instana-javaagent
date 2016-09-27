@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.instana</groupId>
   <artifactId>instana-javaagent</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
 
   <name>Instana - Java Startup Agent</name>
   <description>Javaagent to initialize JVM attach and instrument features.</description>
@@ -34,7 +33,7 @@
     <connection>scm:git:git://github.com/instana/instana-javaagent.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/instana/instana-javaagent.git</developerConnection>
     <url>https://github.com/instana/instana-javaagent</url>
-    <tag>HEAD</tag>
+    <tag>instana-javaagent-1.0.0</tag>
   </scm>
 
   <build>
