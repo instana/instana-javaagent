@@ -17,3 +17,13 @@ For those reasons we recommend to start the JVM with this javaagent like this:
 `java -javaagent:instana-javaagent-1.0.0.jar -jar app.jar server`
 
 The latest version of that jar can be found in [MavenCentral -> Instana](http://central.maven.org/maven2/com/instana/instana-javaagent/).
+
+Should the J9 that is used be updated with recent fixpacks, this is no longer necessary, but an command line switch can be used instead. Since as of "Service refresh 3 fix pack 22 (Dec 2016)" an option exists which basically performs the same:
+
+`-XX:+EnableHCR`
+
+```
+Use the -XX:+EnableHCR option to enable late attached agents to redefine or retransform classes. 
+This option might incur a performance penalty. This option is temporary and deprecated and will
+be removed in a future update when no longer necessary.
+```
