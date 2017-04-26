@@ -10,7 +10,7 @@ public class InstanaStartupAgent {
 
   public static void premain(String argument, Instrumentation instrumentation) {
     if (instrumentation.getAllLoadedClasses().length == 0) {
-      System.err.println("Instana Agent could not initialize Instrumenation API");
+      System.err.println("Instana Agent could not initialize Instrumentation API");
     }
   }
 }
