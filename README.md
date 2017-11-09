@@ -18,7 +18,7 @@ For those reasons we recommend to start the JVM with this javaagent like this:
 
 The latest version of that jar can be found in [MavenCentral -> Instana](http://central.maven.org/maven2/com/instana/instana-javaagent/).
 
-Should the J9 that is used be updated with recent fixpacks, this is no longer necessary, but an command line switch can be used instead. Since as of "Service refresh 3 fix pack 22 (Dec 2016)" an option exists which basically performs the same:
+Should the J9 that is used be a Java 8 updated with recent fixpacks, this is no longer necessary, but an command line switch can be used instead. Since as of "Java 8 - Service refresh 3 fix pack 22 (Dec 2016)" an option exists which basically performs the same:
 
 `-XX:+EnableHCR`
 
