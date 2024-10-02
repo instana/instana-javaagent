@@ -1,3 +1,10 @@
+# ARCHIVED
+
+Please refer to the new repository location: https://github.ibm.com/instana/agent
+
+
+----
+
 # Instana JVM Startup Agent
 
 The Instana agent architecture is modular. When the Instana agent runs, it will
@@ -16,7 +23,7 @@ For those reasons we recommend to start the JVM with this javaagent like this:
 
 `java -javaagent:instana-javaagent-1.0.0.jar -jar app.jar server`
 
-The latest version of that jar can be found in [MavenCentral -> Instana](https://repo1.maven.org/maven2/com/instana/instana-javaagent/).
+The latest version of that jar can be found in [Artifact public -> com -> instana -> instana-javaagent](https://artifact-public.instana.io/artifactory/shared/com/instana/instana-javaagent/).
 
 Should the J9 that is used be a Java 8 updated with recent fixpacks, this is no longer necessary, but a command line switch can be used instead. Since as of "Java 8 - Service refresh 3 fix pack 22 (Dec 2016)" an option exists which basically performs the same:
 
